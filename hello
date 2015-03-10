@@ -1,7 +1,12 @@
 public class HelloWorld {
+int sex;
+int by;
+int datetime = by + sex;
 
     public static void main(String[] args) {
-        System.out.println("palahuth");
+        System.out.println(datetime);
     }
-gemba
+
 }
+
+output :  bysex
